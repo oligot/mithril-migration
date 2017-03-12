@@ -2,7 +2,7 @@ var Component = (function() {
   function controller() {
     var vnode = {
       state: {}
-    }
+    };
     oninit(vnode);
     return {state: vnode.state};
   }
